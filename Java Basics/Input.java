@@ -46,15 +46,32 @@ nextLong
 
 /**
  * Input
+//  */
+// public class Input {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+    
+//         int b = sc.nextInt();
+//         int Product = a * b;
+//         System.out.println(Product);
+//     }
+// }
+
+
+
+//         Area of a circle
+
+/**
+ * InnerInput
  */
 public class Input {
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
+public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    float rad = sc.nextFloat();
+    float area = 3.14f * rad *rad;
+    System.out.println(area);
+}
     
-        int b = sc.nextInt();
-        int Product = a * b;
-        System.out.println(Product);
-    }
 }
