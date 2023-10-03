@@ -11,14 +11,34 @@
 
 */ 
 
-/**
- * Arrthmetic_op
- */
+/*
+  Arrthmetic_op
+
 public class Arrthmetic_op {
 
     public static void main(String[] args) {
         int A = 10;
         int B = 5;
         System.out.println("Modulo =" + (A%B));
+    }
+}
+
+*/
+
+public class Arrthmetic_op {
+
+    public static void main(String[] args) {
+        // int a = 10;
+        // int b = ++a;  //(pre)
+        // System.out.println(a);
+        // System.out.println(b);    
+      
+        int a = 10;
+        int b = a++;        // post
+        System.out.println(a);
+        System.out.println(b); 
+   
+   
+   
     }
 }
